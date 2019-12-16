@@ -6,6 +6,7 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
+  result = {}
   director_count = 0 #list of directors; first Array
   while director_count < nds.length do
     #get the name of each director
